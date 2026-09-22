@@ -96,4 +96,30 @@ Elements —
   - Postgres
 
 
-## Workload Distribution
+## APIs
+POST    /api/auth/register
+POST    /api/auth/login
+
+GET     /api/issues
+    data = {
+        name,
+        description,
+        category,
+        photo_evidence,
+        location,
+        status,
+        support_count,
+        assigned_to
+    }
+
+POST    /api/issues
+    data = {
+        reported_by,
+        name,
+        description,
+        category,
+        photo_evidence,
+        location
+    }
+
+GET     /api/updates
