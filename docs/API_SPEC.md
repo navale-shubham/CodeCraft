@@ -92,8 +92,13 @@
   "name": "Damaged street light",
   "description": "Street light is not working near the main road.",
   "category": "Infrastructure",
-  "photo_evidence": "https://example.com/images/issue1.jpg",
-  "location": "Pune, Maharashtra"
+  "photo_evidence": "BASE64_ENCODED_IMAGE",
+  "location": {
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "accuracy": 23.5,
+    "captured_at": "2026-09-24T20:10:00Z"
+  }
 }
 ```
 
